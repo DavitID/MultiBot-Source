@@ -1,1 +1,1 @@
-web: python multi_bot.py
+worker: python multi_bot.py

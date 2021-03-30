@@ -15,7 +15,7 @@ def tolong(sos):
     
 @bot.message_handler(commands=["source"])
 def sc(minta):
-    bot.send_message(minta.chat.id, "*Source code bot🔓\n\n{github}*", parse_mode="Markdown")
+    bot.send_message(minta.chat.id, f"*Source code bot🔓\n\n{github}*", parse_mode="Markdown")
     
 @bot.message_handler(commands=["tulis"])
 def index(pesan):

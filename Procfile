@@ -1,0 +1,1 @@
+web: python multi_bot.py
